@@ -49,4 +49,4 @@ O dashboard divide-se em duas páginas focadas no usuário:
 * **Concentração de Receita:** A receita global da empresa demonstrou forte dependência de um grupo restrito de produtos principais (Curva ABC latente), indicando a necessidade de diversificação ou blindagem comercial desses SKUs líderes.
 
 <img src="./dashboard_promocoes1.jpg" width="100%">  
-<img src="./dashboard_promocoes1.jpg" width="100%">
+<img src="./dashboard_promocoes2.jpg" width="100%">
