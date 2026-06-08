@@ -1,4 +1,4 @@
-# 📊 Projeto Varejo: Análise Comercial e Eficiência de Promoções
+# 📊 Análise Comercial e Eficiência de Promoções
 
 Este repositório apresenta a resolução de um case técnico voltado para o setor de varejo. O objetivo principal do projeto foi avaliar o impacto real das campanhas promocionais nas vendas e na rentabilidade da empresa, identificando quais estratégias trazem retorno financeiro saudável e quais comprometem a margem de lucro.
 
