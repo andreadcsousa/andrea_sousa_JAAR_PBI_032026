@@ -29,10 +29,12 @@ Foram desenvolvidas diversas métricas e tabelas calculadas utilizando DAX avan�
 4. **Eficiência e Rentabilidade:** Métricas cruciais de Margem Absoluta e `% Margem` para identificar a saúde financeira por campanha.
 5. **Contexto de Filtro:** Cálculo de participação percentual de receita por categoria específica e participação total no faturamento global (utilizando funções modificadoras de contexto como `ALL`).
 
-## 🔒 Segurança e Governança (RLS Dinâmico)
+## 🔐 Governança, RLS Dinâmico e Restrições de Publicação
 
-Para garantir a governança e a segurança da informação em nível corporativo, foi implementada a segurança em nível de linha (**RLS Dinâmico - Row-Level Security**). 
-Utilizando a função `USERPRINCIPALNAME()`, o modelo restringe os dados dinamicamente de acordo com o usuário conectado. Dessa forma, gestores e analistas de um determinado país conseguem visualizar estritamente os resultados de sua respectiva localidade, mantendo os dados sensíveis protegidos.
+Como este projeto simula um ambiente corporativo global rígido, duas boas práticas críticas foram consolidadas:
+
+1. **Segurança a Nível de Linha (Row-Level Security):** Implementação de RLS dinâmico utilizando a função contínua `USERPRINCIPALNAME()`. O mapeamento garante que gestores de diferentes países (ex: Brasil, EUA) acessem o mesmo relatório unificado, porém visualizando estritamente os dados transacionais de suas respectivas jurisdições geográficas.
+2. **Restrição de Distribuição:** Devido ao acoplamento estrutural da base de dados local simulada e políticas de compliance de dados sensíveis, este painel foi homologado localmente via Power BI Desktop. Os fluxos visuais completos e interações nativas estão documentados via capturas estáticas (*screenshots*) de alta fidelidade neste repositório.
 
 ## 🎨 Design do Dashboard e Visualizações
 
